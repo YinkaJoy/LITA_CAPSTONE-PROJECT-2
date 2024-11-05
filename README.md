@@ -104,15 +104,24 @@ From [dbo].[CUSTOMERDATA _CAPSTONE]
 ---
 ![CUSTOMER DATA DASH BOARD](https://github.com/user-attachments/assets/1f7bccfd-f910-43d2-ac0c-62620b3998e0)
 1. Customer Behaviour: This analysis recorded about 20 distinct customer who subscribe to different subscription type.The analysis identified two distinct customer segments, each with unique characteristics and behaviours.
-    1. Loyal Customers: They are regular subscribers who maintain a particular subscription type and renew regularly
-    2. Casual or inactive Customers: They do not renew at the end of the subscription duration, and higly possibility of cancellation.
+
+### Insights
+     - Loyal Customer: They are rugalar subscribers who maintain a particular subscription type and renew regularly.
+     - Casual or inactive Customers: They do not renew at the end of the subscription duration, and higly possibility of cancellation.
 The analysis reveals a challenge in customer retention therefore, there is a need for improvement in the area of customer service.
 
-
-
 2. Subscription Trend: There are three subscription types;
-    - Basics
-4. This analysis was carried out in four regions. 
+      1. Basic
+      2. Premiun
+      3. Standard
+    - Basic: This have the highest renewal rate and highest revenue, indicating customer commitment and satisfaction.
+    - Premium: 
+  
+
+![TREND 2](https://github.com/user-attachments/assets/40aae385-1e00-454f-98b0-7cc78470815f)
+
+
+3. This analysis was carried out in four regions. 
  ![REGIONAL TREND](https://github.com/user-attachments/assets/7ea7ee51-499e-4db2-980b-ba99c93b3eef)
 
 ![RENEWAL AND CANCELLATION TREND](https://github.com/user-attachments/assets/1a880dee-b5ae-42d3-849e-92e291395a6c)
