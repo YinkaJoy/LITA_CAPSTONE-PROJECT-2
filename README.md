@@ -1,7 +1,7 @@
 # LITA_CAPSTONE-PROJECT-2
-I will be documenting an analysis on customer behavioural pattern as my second project here.
+I will be documenting  my second project on customer behavioural pattern here.
 
-### Project Title: Deyinuad Ventures Sales Performance Analysis
+### Project Title: Deyinuad Flexipay Customer Behavioural Analysis
 
 ### Project Outline
 ---
@@ -26,18 +26,23 @@ I will be documenting an analysis on customer behavioural pattern as my second p
 
 ### Project Overview
 ---
-This project aim to analyze sales data to identify trends (such as top-selling products, regional performance, yearly and monthly sales trends), strengths, weaknesses and provide actionable insights to improve sales performance. With respect to the data gathered, I plan to develop recommendations for sales strategy adjustments.
+The aim of this project is to analyze and understand customer behaviour to gain insights into their purchasing habits, preferences, and pain points. This will enable the organization to:
+ 1. Enhance customer experience
+ 2. Improve customer retention
+ 3. Increase sales and revenue
+ 4. Optimize marketing strategies
+
 
 ### Data Sources
 ---
-The primary source of Data used is the sales report provided by the sales team.
+The primary source of Data used is the customer data provided by the organization.
 
 ### Tools Used
 ---
-- Microsoft Excel [Download Here](https://1drv.ms/x/c/aad348901d0848c9/ESF61RwGbDRPsMRtHpPAAg8B4I0nxZayuGCSASdE9G5hhw)
+- Microsoft Excel [Download Here](https://1drv.ms/x/c/aad348901d0848c9/EVv2v2mzdsVEgBKDRT5cED4Bf0CpP803ccyhAtIAQ2wbgg)
   1. For Data cleaning
   2. For Analysis.
-- SQL - Structured Query Language for querying of Data [Download Here](https://sqlfiddle.com/sql-server/online-compiler?id=53b7e911-8fb7-4874-bbec-c46c06a247a3)
+- SQL - Structured Query Language for querying of Data
 - PBI - Microsoft PowerBI for visualization.
 - GitHub for portfolio building.
 
