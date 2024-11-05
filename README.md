@@ -55,20 +55,40 @@ The primary source of Data used is the customer data provided by the organizatio
 
 ### Exploratory Data Analysis
 ---
- In exploring data for effective analysis, the following questions were asked;
- - What is the total sales for each product category?
- - What is the number of sales transactions in each region?
- - Which product is the highest-selling product by total sales value?
- - What is the total revenue per product?
- - What is the monthly sales totals for the current year.
- - Who are the top 5 customers by total purchase amount?
- - What is the percentage of total sales contributed by each region?
- - Which products have no sales in the last quarter?
-
+For effective analysis, I explored the Data to answer the following questions such as;
+ - Retrieve the total number of customers from each region.
+ - Find the most popular subscription type by the number of customers.
+ - Find customers who canceled their subscription within 6 months.
+ - Calculate the average subscription duration for all customers.
+ - Find customers with subscriptions longer than 12 months.
+ - Calculate total revenue by subscription type.
+ - Find the top 3 regions by subscription cancellations.
+ - Find the total number of active and canceled subscriptions.
+   
 ### Data Analysis
 ---
-Included are some basic lines of code or queries or even some of the DAX expressions that were used during my analysis;  
+Included are some basic lines of code or queries that were used during my analysis;  
 
- - To retrieve the total sales for each product category;
+ - To retrieve the total number of customers from each region;
 
 ```SQL
+SELECT  Region, count(distinct Customerid) as Total_customers 
+from [dbo].[CUSTOMERDATA _CAPSTONE]
+Group by Region;
+```
+
+ - To find the most popular subscription type by the number of customers
+
+```SQL
+SELECT top 1 subscriptiontype, count(distinct customerid) as Total_customers
+From [dbo].[CUSTOMERDATA _CAPSTONE]
+Group by subscriptiontype 
+Order by Total_customers desc;
+```
+
+ - To calculate the average subscription duration for all customers
+```SQL
+SELECT avg(datediff(day, subscriptionstart, subscriptionend)) as avg_subscription_duration
+From [dbo].[CUSTOMERDATA _CAPSTONE]
+```
+
