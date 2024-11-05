@@ -65,9 +65,7 @@ The primary source of Data used is the customer data provided by the organizatio
 For effective analysis, I explored the Data to answer the following questions such as;
  - Retrieve the total number of customers from each region.
  - Find the most popular subscription type by the number of customers.
- - Find customers who canceled their subscription within 6 months.
  - Calculate the average subscription duration for all customers.
- - Find customers with subscriptions longer than 12 months.
  - Calculate total revenue by subscription type.
  - Find the top 3 regions by subscription cancellations.
  - Find the total number of active and canceled subscriptions.
@@ -104,30 +102,57 @@ From [dbo].[CUSTOMERDATA _CAPSTONE]
 ---
 ![CUSTOMER DATA DASH BOARD](https://github.com/user-attachments/assets/1f7bccfd-f910-43d2-ac0c-62620b3998e0)
 1. Customer Behaviour: This analysis recorded about 20 distinct customer who subscribe to different subscription type.The analysis identified two distinct customer segments, each with unique characteristics and behaviours.
-
-### Insights
-     - Loyal Customer: They are rugalar subscribers who maintain a particular subscription type and renew regularly.
-     - Casual or inactive Customers: They do not renew at the end of the subscription duration, and higly possibility of cancellation.
+    
+### Insights:
+ - Loyal Customer: The are regular subscribers who maintain a particular subscription type and renew regularly.
+ - Casual or inactive customers: They do not renew at the end of the subscription duration and there is a high possibility of cancellation.
+   
 The analysis reveals a challenge in customer retention therefore, there is a need for improvement in the area of customer service.
 
 2. Subscription Trend: There are three subscription types;
       1. Basic
       2. Premiun
       3. Standard
-    - Basic: This have the highest renewal rate and highest revenue, indicating customer commitment and satisfaction.
-    - Premium: 
-  
-
+   
 ![TREND 2](https://github.com/user-attachments/assets/40aae385-1e00-454f-98b0-7cc78470815f)
+The chart above shows;
+  - Basic have the highest renewal rate and revenue, indicating customer commitment and satisfaction.
+  - Premium and Standard maintain close or almost the same position in terms of revenue, renewal and cancellaton rate suggesting flexibility or dissatisfaction
+  
+### Insights:
+  - A pattern in the cancellation count across the susbcription types was indentified, leading to the following assumptions;
+       1. that cost is a primary reason for cancellation across all subscription types.
+       2. Lack of usage and poor customer support are significant factors for monthly and quarterly cancellations.
 
+  ![RENEWAL AND CANCELLATION TREND 2](https://github.com/user-attachments/assets/b37f8a64-5ae3-4b8d-9c32-a21593330a8d)
 
-3. This analysis was carried out in four regions. 
+   - The Line chart above illustrate the trend of subscription renewal and cancellation across month of the year.
+   - There were no renewal in the months of **April**, **September** and **October**. This could be due to a number of factors especially the payment of school fees by parents. Also reducing screen time, 
+      internet facilities, poor customer support or technical issues.
+   - However, months like **March**, **July**, **November** and **December** recorded no Cancellation. 
+          
  ![REGIONAL TREND](https://github.com/user-attachments/assets/7ea7ee51-499e-4db2-980b-ba99c93b3eef)
 
+3. Regional Trend: Amongst the four region, **East** recorded no cancellation indicating a high level of customer satisfaction and commitment
 ![RENEWAL AND CANCELLATION TREND](https://github.com/user-attachments/assets/1a880dee-b5ae-42d3-849e-92e291395a6c)
 
 
-![RENEWAL AND CANCELLATION TREND 2](https://github.com/user-attachments/assets/b37f8a64-5ae3-4b8d-9c32-a21593330a8d)
+### Recommendations
+---
+The following recommendations are proposed; 
+1. Offer flexible subscription plans to reduce cancellations.
+2. Improve customer support to address specific monthly cancellation concerns.
+3. Provide clear pricing and cost-benefit analysis to alleviate cost concerns.
+4. Enhance premium and standard subscription benefits to maintain high renewal rates.
+5. Monitor customer usage and engage with inactive customers to prevent cancellations.
+
+### Conclusion
+---
+Our customer behavioral analysis provides valuable insights into customer preferences, pain points, and behaviors. By implementing targeted strategies, we can enhance customer experience, increase loyalty, and drive business growth.
+
+
+
+
 
 
 
