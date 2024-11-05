@@ -32,7 +32,6 @@ The aim of this project is to analyze and understand customer behaviour to gain 
  3. Increase sales and revenue
  4. Optimize marketing strategies
 
-
 ### Data Sources
 ---
 The primary source of Data used is the customer data provided by the organization.
@@ -52,6 +51,14 @@ The primary source of Data used is the customer data provided by the organizatio
   1. Data loading and Inspection
   2. Removed duplicates
   3. Data Cleaning and Formatting
+
+### Basic statistics about the dataset:
+- Total Revenue: $67,540,175
+- Total Cancellation Count: 15,175
+- Total Renewal Count: 18,612
+- Average subscription duration: 365
+- Number of distinct Customers: 20
+- Number of Region: 4
 
 ### Exploratory Data Analysis
 ---
@@ -91,4 +98,32 @@ Order by Total_customers desc;
 SELECT avg(datediff(day, subscriptionstart, subscriptionend)) as avg_subscription_duration
 From [dbo].[CUSTOMERDATA _CAPSTONE]
 ```
+
+
+### Data Visualization
+---
+![CUSTOMER DATA DASH BOARD](https://github.com/user-attachments/assets/1f7bccfd-f910-43d2-ac0c-62620b3998e0)
+1. Customer Behaviour: This analysis recorded about 20 distinct customer who subscribe to different subscription type.The analysis identified two distinct customer segments, each with unique characteristics and behaviours.
+    1. Loyal Customers: They are regular subscribers who maintain a particular subscription type and renew regularly
+    2. Casual or inactive Customers: They do not renew at the end of the subscription duration, and higly possibility of cancellation.
+The analysis reveals a challenge in customer retention therefore, there is a need for improvement in the area of customer service.
+
+
+2. Subscription Trend: This analysis was carried out in four regions. 
+ ![REGIONAL TREND](https://github.com/user-attachments/assets/7ea7ee51-499e-4db2-980b-ba99c93b3eef)
+
+![RENEWAL AND CANCELLATION TREND](https://github.com/user-attachments/assets/1a880dee-b5ae-42d3-849e-92e291395a6c)
+
+
+![RENEWAL AND CANCELLATION TREND 2](https://github.com/user-attachments/assets/b37f8a64-5ae3-4b8d-9c32-a21593330a8d)
+
+
+
+
+
+
+
+
+
+
 
