@@ -109,6 +109,7 @@ From [dbo].[CUSTOMERDATA _CAPSTONE]
 The analysis reveals a challenge in customer retention therefore, there is a need for improvement in the area of customer service.
 
 
+
 2. Subscription Trend: There are three subscription types;
     - Basics
 4. This analysis was carried out in four regions. 
