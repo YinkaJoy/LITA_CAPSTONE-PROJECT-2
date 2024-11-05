@@ -20,8 +20,6 @@ I will be documenting an analysis on customer behavioural pattern as my second p
 
 [Data Visualization](#data-visualization)
 
-[Recommendations](#recommendations
-
 [Recommendations](#recommendations)
 
 
@@ -47,3 +45,25 @@ The primary source of Data used is the sales report provided by the sales team.
 ---
  In the intial phase when I got the data, I performed the following action;
   1. Data loading and Inspection
+  2. Removed duplicates
+  3. Data Cleaning and Formatting
+
+### Exploratory Data Analysis
+---
+ In exploring data for effective analysis, the following questions were asked;
+ - What is the total sales for each product category?
+ - What is the number of sales transactions in each region?
+ - Which product is the highest-selling product by total sales value?
+ - What is the total revenue per product?
+ - What is the monthly sales totals for the current year.
+ - Who are the top 5 customers by total purchase amount?
+ - What is the percentage of total sales contributed by each region?
+ - Which products have no sales in the last quarter?
+
+### Data Analysis
+---
+Included are some basic lines of code or queries or even some of the DAX expressions that were used during my analysis;  
+
+ - To retrieve the total sales for each product category;
+
+```SQL
