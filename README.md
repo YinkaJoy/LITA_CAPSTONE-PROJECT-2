@@ -22,6 +22,8 @@ I will be documenting  my second project on customer behavioural pattern here.
 
 [Recommendations](#recommendations)
 
+[Conclusion](#conclusion)
+
 
 
 ### Project Overview
@@ -124,7 +126,7 @@ The chart above shows;
        1. that cost is a primary reason for cancellation across all subscription types.
        2. Lack of usage and poor customer support are significant factors for monthly and quarterly cancellations.
 
-  ![RENEWAL AND CANCELLATION TREND 2](https://github.com/user-attachments/assets/b37f8a64-5ae3-4b8d-9c32-a21593330a8d)
+ ![RENEWAL AND CANCELLATION TREND 2](https://github.com/user-attachments/assets/b37f8a64-5ae3-4b8d-9c32-a21593330a8d)
 
    - The Line chart above illustrate the trend of subscription renewal and cancellation across month of the year.
    - There were no renewal in the months of **April**, **September** and **October**. This could be due to a number of factors especially the payment of school fees by parents. Also reducing screen time, 
@@ -139,7 +141,7 @@ The chart above shows;
 
 ### Recommendations
 ---
-The following recommendations are proposed; 
+The following strategies are proposed; 
 1. Offer flexible subscription plans to reduce cancellations.
 2. Improve customer support to address specific monthly cancellation concerns.
 3. Provide clear pricing and cost-benefit analysis to alleviate cost concerns.
@@ -148,7 +150,7 @@ The following recommendations are proposed;
 
 ### Conclusion
 ---
-Our customer behavioral analysis provides valuable insights into customer preferences, pain points, and behaviors. By implementing targeted strategies, we can enhance customer experience, increase loyalty, and drive business growth.
+Our customer behavioural analysis provides valuable insights into customer preferences, pain points, and behaviours. By implementing targeted strategies, we can enhance customer experience, increase loyalty, and drive business growth.
 
 
 
